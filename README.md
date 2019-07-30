@@ -24,3 +24,5 @@ The best result of i244 is Naive Bayes, with a correct rate of 77%.
 # Other
 #####1. Added b-crawl function, including: archive reply user fav
 #####2. Provide mxbean calls
+
+For My Latest Project Visit https://www.reviewsoffers.com/
