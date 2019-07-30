@@ -1,26 +1,26 @@
 # coupon
-这是一个还在进行中的项目。
+This is a project that is still in progress.
 
-# 目标
-做一个个性化的促销信息的推荐系统。
+# aims
+Make a recommendation system for personalized promotional information.
 
-# 进度
-#####1.爬虫部分的core。√  
-#####2.smzdm网站首页和评论的抓取。√  
-#####3.使用jdk的httpServer提供服务。√  
-#####4.~~建立web端项目，收集用户log。~~ (使用不便)  
-#####5.开发了一个[chrome插件](https://github.com/dpy1123/CouponRecorder)，记录用户在浏览smzdm时的动作。√  
-#####6.使用weka进行后续的数据处理。√  
+# schedule
+#####1.The core of the reptile part. 
+#####2.The website homepage and comments are crawled.√  
+#####3.Use jdk's httpServer to provide services.√  
+#####4.~~Create a web-side project and collect user logs. ~~ (Inconvenient use)
+#####5.Use weka for subsequent data processing. √  
 
-# 训练集
-整理好的csv数据集在data目录下。  
-#####分类方式
-按照view buy normal dislike分类，数据集不平衡，使用smote或cost-sensitive的方法感觉效果都不是很好；  
-暂时按照view buy dislike分类。  
-#####结果
-i148的最好结果是基于属性选择的决策树，正确率82%  
-i244的最好结果是朴素贝叶斯，正确率77%
 
-# 其他
-#####1.增加了b站爬取功能,包括:archive reply user fav  
-#####2.提供mxbean调用  
+# Training set
+The finished csv dataset is in the data directory.
+#####Classification
+According to the view buy normal dislike classification, the data set is not balanced, using the smooth or cost-sensitive method does not feel very good;
+Temporarily according to the view buy dislike classification.
+#####result
+The best result of i148 is based on the decision tree of attribute selection, the correct rate is 82%
+The best result of i244 is Naive Bayes, with a correct rate of 77%.
+
+# Other
+#####1. Added b-crawl function, including: archive reply user fav
+#####2. Provide mxbean calls
